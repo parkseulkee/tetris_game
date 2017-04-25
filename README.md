@@ -17,10 +17,10 @@
 * 테트리스 블록 PASS권을 추가함. PASS권은 현재 테트리스 블록을 없애고 다음 테트리스 블록으로 바로 넘어가게해줌
 
 ## Source
-* 테트리스 판 배열의 상태를 관리하는 class : [Board.h](https://github.com/parkseulkee/tetris_game/blob/master/Board.h), [Board.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Board.cpp)
-* 키 입력을 처리하는 class : [Controller.h](https://github.com/parkseulkee/tetris_game/blob/master/Controller.h) , [Controller.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Controller.cpp)
-* 좌표를 처리하는 class : [Point.h](https://github.com/parkseulkee/tetris_game/blob/master/Point.h) , [Point.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Point.cpp) 
-* 점수를 저장하고 출력하는 class : [Score.h](https://github.com/parkseulkee/tetris_game/blob/master/Score.h) , [Score.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Score.cpp)
-* 테트리스 블록 하나의 생성, 출력, 이동 관리 class : [Tetromino.h](https://github.com/parkseulkee/tetris_game/blob/master/Tetromino.h) , [Tetromino.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Tetromino.cpp)
-* 테트리스 게임 하나 관리, 중심 class : [Tetris.h](https://github.com/parkseulkee/tetris_game/blob/master/Tetris.h) , [Tetris.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Tetris.cpp) 
-* 게임 로직: [main.cpp](https://github.com/parkseulkee/tetris_game/blob/master/main.cpp)
+* 테트리스 판 배열의 상태를 관리하는 class : [Board.h](https://github.com/parkseulkee/tetris_game/blob/master/Board.h) [Board.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Board.cpp)
+* 키 입력을 처리하는 class : [Controller.h](https://github.com/parkseulkee/tetris_game/blob/master/Controller.h) [Controller.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Controller.cpp)
+* 좌표를 처리하는 class : [Point.h](https://github.com/parkseulkee/tetris_game/blob/master/Point.h) [Point.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Point.cpp) 
+* 점수를 저장하고 출력하는 class : [Score.h](https://github.com/parkseulkee/tetris_game/blob/master/Score.h) [Score.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Score.cpp)
+* 테트리스 블록 하나의 생성, 출력, 이동 관리 class : [Tetromino.h](https://github.com/parkseulkee/tetris_game/blob/master/Tetromino.h) [Tetromino.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Tetromino.cpp)
+* 테트리스 게임 하나 관리, 중심 class : [Tetris.h](https://github.com/parkseulkee/tetris_game/blob/master/Tetris.h) [Tetris.cpp](https://github.com/parkseulkee/tetris_game/blob/master/Tetris.cpp) 
+* [main.cpp](https://github.com/parkseulkee/tetris_game/blob/master/main.cpp)
